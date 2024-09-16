@@ -1,0 +1,55 @@
+.feature-heading{
+    font-family: 'Circular Std', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    letter-spacing: 0.2em;
+    color: #F85E9F;
+}
+.feature-para{
+    font-family: 'Circular Std', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.8px;
+    color: #191825;
+}
+.keyfeature-para{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #19182580;
+
+}
+.feature-topic{
+    font-size: 20px;
+}
+
+
+.responsive-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
+  }
+  
+  @media (max-width: 800px) {
+    .responsive-text {
+      text-align: center; 
+      margin: 0 auto; 
+    }
+  }
+  
+.responsive-container {
+    display: flex;
+    gap: 2rem; 
+}
+
+@media (max-width: 800px) {
+    .responsive-container {
+        flex-direction: column; 
+    }
+
+    .responsive-column {
+        width: 100%; 
+    }
+}

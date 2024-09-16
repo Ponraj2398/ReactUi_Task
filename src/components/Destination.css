@@ -1,0 +1,106 @@
+.top-destination{
+    margin-top: 70px;
+}
+.carousel-btn{
+    display: flex;
+    justify-content: end;
+}
+
+.dest-heading {
+    font-family: 'Circular Std', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    letter-spacing: 0.2em;
+    color: #F85E9F;
+
+}
+
+.svg-btn {
+    border-radius: 50%;
+    outline: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.svg-btn:focus svg {
+    color: white;
+}
+
+.dest-para {
+    font-family: 'Circular Std', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.8px;
+    color: #191825;
+}
+
+.card {
+    border-top-left-radius: 33px;
+    border-top-right-radius: 33px;
+}
+
+.card-title {
+    font-family: 'Circular Std', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    text-align: left;
+    color: #191825;
+
+}
+
+.card-price {
+    font-family: 'Circular Std', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    text-align: left;
+    color: #F85E9F;
+
+}
+
+.card-place {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #191825BF;
+
+}
+
+.card-rating {
+    font-family: 'Circular Std', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    text-align: left;
+    color: #FF5722;
+}
+
+    
+
+@media (max-width: 800px) {
+    .responsive-columns {
+        flex-direction: column;
+    }
+
+    .responsive-columns > div {
+        width: 100%;
+    }
+    .top-destination{
+         margin-top: 30px;
+         text-align: center;
+    }
+    .carousel-btn{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .dest-para {
+        font-family: 'Circular Std', sans-serif;
+        font-size: 35px;
+        line-height: 42.8px;
+    }
+   
+}

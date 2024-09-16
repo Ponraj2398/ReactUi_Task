@@ -1,0 +1,20 @@
+.client-trip,
+.client-exp,
+.client-booking,
+.client-air,
+.client-rbitz {
+    width: 170px;
+    height: auto;
+}
+
+@media screen and (max-width:430px) {
+
+    .client-trip,
+    .client-exp,
+    .client-booking,
+    .client-air,
+    .client-rbitz {
+        max-width: 100px;
+        height: auto;
+    }
+}

@@ -1,0 +1,25 @@
+.signup-btn {
+    background: #5D50C6;
+    width: 115px;
+    height: 49px;
+}
+
+.signup-btn:hover {
+    background: #5D50C6;
+    opacity: 0.8;
+}
+
+.login-btn {
+    width: 105px;
+    height: 49px;
+}
+
+.login-btn:hover {
+    background: #5D50C6;
+    border: none;
+    opacity: 0.8;
+}
+ul .active{
+    color: #000;
+}
+

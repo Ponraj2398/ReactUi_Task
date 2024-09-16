@@ -1,0 +1,89 @@
+.travel-heading{
+    font-family: 'Circular Std', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    letter-spacing: 0.2em;
+    color: #F85E9F;
+}
+.travel-para{
+    font-family: 'Circular Std', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.8px;
+    color: #191825;
+}
+
+.travelpoint-para {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #19182580;
+
+}
+
+.count,.count1,.count2,.count3 {
+    color: #FF5722;
+}
+
+
+.travel-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+@media (max-width: 800px) {
+    .travel-container {
+        flex-direction: column; 
+    }
+
+    .travel-image,
+    .travel-text {
+        width: 100%;
+    }
+
+
+    .travel-heading {
+        font-size: 20px;
+    }
+
+    .travel-para {
+        font-size: 32px;
+    }
+}
+
+.travel-stats-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    justify-items: center; 
+    padding: 16px; 
+}
+
+@media (min-width: 600px) {
+    .travel-stats-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .travel-stats-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px; 
+    }
+}
+
+.responsive-text {
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+
+@media (min-width: 801px) {
+    .responsive-text {
+        justify-content: flex-start;
+        text-align: left; 
+    }
+}

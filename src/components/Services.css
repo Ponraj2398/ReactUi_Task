@@ -1,0 +1,82 @@
+.service-heading {
+    font-family: 'Circular Std', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    color: #F85E9F;
+}
+
+.service-para {
+    font-family: 'Circular Std', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.8px;
+    text-align: left;
+    color: #191825;
+
+}
+
+.service-card {
+    padding: 50px 30px 50px 30px;
+    box-shadow: 0px 0px 0px 0px #0000001A;
+    box-shadow: 0px 41px 89px 0px #0000001A;
+
+}
+
+.service-card-title {
+    font-family: 'Circular Std', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: center;
+    color: #191825;
+
+}
+
+.service-card-para {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    color: #19182580;
+
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .service-heading {
+        font-size: 23px;
+        line-height: 23.6px;
+        text-align: center;
+    }
+
+    .service-para {
+        font-size: 30px;
+        line-height: 42.8px;
+        text-align: center;
+        color: #191825;
+    }
+
+    .service-card {
+        padding: 30px 20px;
+        box-shadow: 0px 41px 89px 0px #0000001A;
+    }
+
+    .service-card-title {
+        font-size: 20px;
+        line-height: 20.6px;
+        text-align: center;
+        color: #191825;
+    }
+
+    .service-card-para {
+        font-size: 18px;
+        line-height: 20.8px;
+        text-align: center;
+        color: #19182580;
+    }
+}
