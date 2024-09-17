@@ -42,12 +42,12 @@ const TopDestination = () => {
 
                     <button
                         type="button"
-                        className="svg-btn relative z-30 flex items-center justify-center h-20 w-20 cursor-pointer group focus:outline-none animate__animated animate__lightSpeedInRight"
+                        className="svg-btn relative z-30 flex items-center justify-center h-20 w-20 cursor-pointer group focus:outline-dark bg-blue-600 animate__animated animate__lightSpeedInRight"
                         data-carousel-next
                     >
-                        <span className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-white dark:bg-blue-600 group-hover:bg-dark group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70">
+                        <span className="inline-flex items-center justify-center w-20 h-20 rounded-full group-hover:bg-blue-600 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70">
                             <svg
-                                className="w-7 h-7 text-white"
+                                className="w-7 h-7 group-hover:text-white"
                                 aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
